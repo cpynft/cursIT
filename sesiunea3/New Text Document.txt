@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <style>
+             
+        .font {
+                text-align: center;
+                font-family: "Sofia";
+             }
+             .fontSecundar{
+                font-family: Sofia;
+             }
+             h1 {
+                border-style: solid;
+                border-width: 3px;
+                border-color: green;
+
+                border-radius: 10px;
+                margin: 40px;
+                padding: 20px;
+             }
+
+             span {
+                border-right-style: dotted;
+                border-style: solid;
+                border-width: 3px;
+                border-color: rgb(113, 0, 128);
+                margin: 40px;
+                border-radius: 10px;
+             }
+             div{
+                display: inline;
+                border: 3px solid red;
+                height: 100px;
+                width: 150px;
+             }
+        
+    </style>
+   </head>
+   <body>
+    <h1 class="font-effect=fire font">This is a heading</h1>
+    <p class="font"> this is a paragraph</p>
+    <span class="font"> This is a span</span>
+    <span> This is another span 2</span>
+    <hr>
+    <h1 class="fontSecundar">This is another heading</h1>    
+    <hr>
+    <div></div> 
+    <span>This is antoher span 3</span>
+    </body>
+</html>
