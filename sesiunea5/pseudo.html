@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo</title>
     <style>
-        a:visited {
+        /* a:visited {
             color: red;
         }
 
@@ -31,6 +31,21 @@
         }
         p{
             color: brown;
+        } */
+        p::after {
+            content:   " this is the extra content";
+            color: red;
+        }
+
+        p::before {
+            content: "this is added before ";
+            color: blue;
+        }
+        ::selection {
+            color: yellow;
+        }
+        ::marker {
+            color: red;
         }
     </style>
 </head>
@@ -40,9 +55,18 @@
     <a href="index.html">Index</a>
     <img src="falsa" alt="flower">
     <h1>Pseudo elemente</h1>
-    <p style="color: red;">This is a paragraf 1</p>
-    <p style="color: red;">This is a paragraf 2</p>
-    <p class="paragraf3" id="paragraf3">This is a paragraf 3</p>
+    <!-- <p style="color: red;">This is a paragraf 1</p>
+    <p style="color: red;">This is a paragraf 2</p> -->
+    <!-- <p class="paragraf3" id="paragraf3">This is a paragraf 3</p> -->
     <p>This is a paragraf 4</p>
+    <p class="target">This is a paragraph</p>
+    <ol>
+        <li>sare</li>
+        <li>zahar</li>
+        <li>faina</li>
+        <li>ciocolata</li>
+        <li>unt</li>
+        <div style="display: list-item;">piept de pui</div>
+    </ol>
 </body>
 </html>
